@@ -1,4 +1,7 @@
 
 .vs/
-.vscode/cc_Practice.cc
+cc_Practice.cpp
 .vscode/
+*.prob
+b
+n
