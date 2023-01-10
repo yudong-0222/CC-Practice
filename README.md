@@ -1,5 +1,5 @@
 # C++ Practice List
-My c++ practice list.
-Store for future.
+All Practice of C++. 
+This is so fun!!
 
 ## :D
