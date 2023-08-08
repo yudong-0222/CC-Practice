@@ -1,0 +1,1 @@
+{"name":"Local: Codeforces_1850_pA","url":"e:\\!C++\\Codeforces_1850_pA.cpp","tests":[{"id":1689950479093,"input":"5\n8 1 2\n4 4 5\n9 9 9\n0 0 0\n8 5 3","output":"YES\nNO\nYES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\Codeforces_1850_pA.cpp","group":"local","local":true}

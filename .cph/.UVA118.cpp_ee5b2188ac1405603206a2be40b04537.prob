@@ -1,0 +1,1 @@
+{"name":"Local: UVA118","url":"e:\\!c++\\UVA118.cpp","tests":[{"id":1672497886812,"input":"5 3\n1 1 E\nRFRFRFRF\n3 2 N\nFRRFLLFFRRFLL\n0 3 W\nLLFFFLFLFL","output":"1 1 E\n3 3 N LOST\n2 3 S"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!c++\\UVA118.cpp","group":"local","local":true}
