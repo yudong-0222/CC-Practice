@@ -1,0 +1,1 @@
+{"name":"Local: pA","url":"e:\\!C++\\Codeforces\\contest_1873\\pA.cpp","tests":[{"id":1695307355696,"input":"6\nabc\nacb\nbac\nbca\ncab\ncba","output":"YES\nYES\nYES\nNO\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\Codeforces\\contest_1873\\pA.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: cpp","url":"e:\\!C++\\cpp.cpp","tests":[{"id":1697807639257,"input":"VEGA 2.000 0.00\nFUCK 2.001 \nEND","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\cpp.cpp","group":"local","local":true}

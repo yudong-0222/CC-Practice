@@ -1,0 +1,1 @@
+{"name":"Local: pB","url":"e:\\!C++\\Atcoder\\ABC314\\pB.cpp","tests":[{"id":1691843128594,"input":"4\n3\n7 19 20\n4\n4 19 24 0\n2\n26 10\n3\n19 31 24\n19","output":"2\n1 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\Atcoder\\ABC314\\pB.cpp","group":"local","local":true}

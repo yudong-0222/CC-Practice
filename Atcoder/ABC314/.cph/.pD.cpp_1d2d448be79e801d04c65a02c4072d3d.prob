@@ -1,0 +1,1 @@
+{"name":"Local: pD","url":"e:\\!C++\\Atcoder\\ABC314\\pD.cpp","tests":[{"id":1691847076176,"input":"7\nAtCoder\n5\n1 4 i\n3 0 a\n1 5 b\n2 0 a\n1 4 Y","output":"atcYber"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\Atcoder\\ABC314\\pD.cpp","group":"local","local":true}

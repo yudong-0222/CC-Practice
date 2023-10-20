@@ -1,0 +1,1 @@
+{"name":"Local: pA","url":"e:\\!C++\\Codeforces\\contest_1862\\pA.cpp","tests":[{"id":1693581387765,"input":"3\n1 2\n2 3\n3 4","output":"9"},{"id":1693583057244,"input":"1 2\n1 2\n1 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\Codeforces\\contest_1862\\pA.cpp","group":"local","local":true}

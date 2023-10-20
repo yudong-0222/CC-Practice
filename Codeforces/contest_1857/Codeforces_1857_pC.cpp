@@ -9,7 +9,10 @@ signed main(void) {
   while(t--) {
     int n; cin >>n;
     int ar[n] = {0};
+    for (int i=0;i<n;i++) {
+      cin >> ar[n];
 
+    }
   }
 
 }

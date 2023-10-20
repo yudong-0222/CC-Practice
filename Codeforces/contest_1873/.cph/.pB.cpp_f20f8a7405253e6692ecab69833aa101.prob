@@ -1,0 +1,1 @@
+{"name":"Local: pB","url":"e:\\!C++\\Codeforces\\contest_1873\\pB.cpp","tests":[{"id":1695308930991,"input":"4\n4\n2 2 1 2\n3\n0 1 2\n5\n4 3 2 3 4\n9\n9 9 9 9 9 9 9 9 9","output":"16\n2\n432\n430467210"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\Codeforces\\contest_1873\\pB.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: E606","url":"e:\\!C++\\ZJ\\E606.cpp","tests":[{"id":1695274189749,"input":"2\n10\n10\n4\n1\n2\n2\n4","output":"10 2 1\n2 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\ZJ\\E606.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 氣球pB","url":"e:\\!C++\\氣球pB.cpp","tests":[{"id":1691916774238,"input":"3\n1\n100\n8\n0 1 2 3 4 5 6 7\n3\n1 2 3","output":"100 100\n7 0\n3 1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\氣球pB.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: pE","url":"e:\\!C++\\Codeforces\\contest_1873\\pE.cpp","tests":[{"id":1695313137550,"input":"5\n7 9\n3 1 2 4 6 2 5\n3 10\n1 1 1\n4 1\n1 4 3 4\n6 1984\n2 6 5 9 1 8\n1 1000000000\n1","output":"4\n4\n2\n335\n1000000001"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\Codeforces\\contest_1873\\pE.cpp","group":"local","local":true}

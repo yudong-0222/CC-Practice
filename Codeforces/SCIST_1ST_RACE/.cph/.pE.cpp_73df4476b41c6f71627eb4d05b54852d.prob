@@ -1,0 +1,1 @@
+{"name":"Local: pE","url":"e:\\!C++\\Codeforces\\SCIST_1ST_RACE\\pE.cpp","tests":[{"id":1696258876652,"input":"5 125 48763\n","output":"3"},{"id":1696258885233,"input":"6 1 20\n","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\Codeforces\\SCIST_1ST_RACE\\pE.cpp","group":"local","local":true}
