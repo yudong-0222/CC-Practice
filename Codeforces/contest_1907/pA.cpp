@@ -19,21 +19,27 @@
 #define sz(x) (int((x).size()))
 using namespace std;
 
-int cl[45];
 signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     
-    int m,n,s; cin >> m >> n >> s;
-
-    for(int i = 1; i <= n; ++i) cin >> cl[i];
-
-    // 應該不用排序
-    
-    for(int i = 1; i <= m; ++i) {
-        if(i == cl[i]) continue;
-        else cout << cl[i] << " ";
+    int t;
+    cin >> t;
+    while(t--) {
+    	string s;
+    	cin >> s;
+    	
+		for(int i = 1; i < 9; ++i) {
+			if(i == s[1] - '0') continue;
+			else cout << s[0] << i << endl;
+		}
+		for(int i = 0;  i < 8; i++) {
+			char sa = 'a'+i;
+			if(s[0] == sa) continue;
+			cout << sa << s[1] << endl;
+		}
     }
-
-    cout << endl;
+    
+    
+    
 }

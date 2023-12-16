@@ -1,0 +1,1 @@
+{"name":"Local: pA","url":"e:\\!C++\\Atcoder\\ABC326\\pA.cpp","tests":[{"id":1698494665159,"input":"1 4\n","output":"No"},{"id":1698494665616,"input":"99 96\n","output":"Yes\n"},{"id":1698494666237,"input":"100 1","output":"No"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\Atcoder\\ABC326\\pA.cpp","group":"local","local":true}

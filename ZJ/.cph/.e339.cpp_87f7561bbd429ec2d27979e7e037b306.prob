@@ -1,0 +1,1 @@
+{"name":"Local: e339","url":"e:\\!C++\\ZJ\\e339.cpp","tests":[{"id":1698760602034,"input":"abcde\nabedc\n5\n1 3\n1 5\n2 2\n3 3\n5 5","output":"1\n2\n0\n1\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\ZJ\\e339.cpp","group":"local","local":true}

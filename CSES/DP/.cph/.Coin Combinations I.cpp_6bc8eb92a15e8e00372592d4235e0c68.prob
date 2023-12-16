@@ -1,0 +1,1 @@
+{"name":"Local: Coin Combinations I","url":"e:\\!C++\\CSES\\DP\\Coin Combinations I.cpp","tests":[{"id":1698855197012,"input":"3 9\n2 3 5","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\CSES\\DP\\Coin Combinations I.cpp","group":"local","local":true}

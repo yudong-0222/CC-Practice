@@ -6,8 +6,8 @@
 #define eb emplace_back
 #define mk make_pair
 #define pii pair<int, int>
-#define F first
-#define S second
+#define f first
+#define s second
 #define vi vector<int>
 #define all(x) (x).begin(), (x).end()
 #define umap unordered_map
@@ -19,21 +19,19 @@
 #define sz(x) (int((x).size()))
 using namespace std;
 
-int cl[45];
 signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    
-    int m,n,s; cin >> m >> n >> s;
 
-    for(int i = 1; i <= n; ++i) cin >> cl[i];
-
-    // 應該不用排序
-    
-    for(int i = 1; i <= m; ++i) {
-        if(i == cl[i]) continue;
-        else cout << cl[i] << " ";
+    string s;
+    while(cin >> s) {
+        int n = 0;
+        int ss = 1;
+        for(int i = 0; i < s.size(); ++i) {
+            n += ss*(s[i] - '0');
+            ss*= -1;
+        }
+        // cout << n << endl;
+        if(s[0] != '0') cout << s << " " << (n % 11 == 0 ? "is a multiple of 11." : "is not a multiple of 11.") << endl;
     }
-
-    cout << endl;
 }

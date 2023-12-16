@@ -1,3 +1,8 @@
+// Problem: A - Digits Sum
+// Contest: AtCoder - AtCoder Grand Contest 025
+// URL: https://atcoder.jp/contests/agc025/tasks/agc025_a
+// Time Limit: 2000 ms
+
 #include <bits/stdc++.h>
 #define read(type) readInt<type>() // Fast read
 #define int long long
@@ -19,21 +24,17 @@
 #define sz(x) (int((x).size()))
 using namespace std;
 
-int cl[45];
 signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    
-    int m,n,s; cin >> m >> n >> s;
-
-    for(int i = 1; i <= n; ++i) cin >> cl[i];
-
-    // 應該不用排序
-    
-    for(int i = 1; i <= m; ++i) {
-        if(i == cl[i]) continue;
-        else cout << cl[i] << " ";
-    }
-
-    cout << endl;
+ 	
+ 	int n; cin >> n;
+ 	
+ 	int b = 0;
+ 	while(n > 0) {
+ 		b += n%10;
+ 		n/=10;
+ 	}
+ 	if(b == 1) b = 10;
+ 	cout << b << endl;
 }

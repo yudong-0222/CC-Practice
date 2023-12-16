@@ -1,0 +1,1 @@
+{"name":"Local: pC","url":"e:\\!C++\\TOIP\\202310-Rookie\\pC.cpp","tests":[{"id":1698401561594,"input":"2 2 2\n2 5\n1 1\n5 2","output":"2 8"},{"id":1698401574950,"input":"3 2 2\n1 1 1\n5 5\n4 6","output":"1 13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\TOIP\\202310-Rookie\\pC.cpp","group":"local","local":true}

@@ -12,28 +12,37 @@
 #define all(x) (x).begin(), (x).end()
 #define umap unordered_map
 #define uset unordered_set
-#define MOD 1e9 + 7
+#define MOD 1000000007
 #define imax INT_MAX
 #define imin INT_MIN
 #define exp 1e9
 #define sz(x) (int((x).size()))
 using namespace std;
 
-int cl[45];
+int dp[1000005];
+
 signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    
-    int m,n,s; cin >> m >> n >> s;
 
-    for(int i = 1; i <= n; ++i) cin >> cl[i];
+    int n,x; 
+    cin >> n >> x;
+    vector<int> a;
 
-    // 應該不用排序
-    
-    for(int i = 1; i <= m; ++i) {
-        if(i == cl[i]) continue;
-        else cout << cl[i] << " ";
+    dp[0] = 1;
+    for(int i = 0; i < n; i++) {
+        int d; cin >> d;
+        a.eb(d);
     }
 
-    cout << endl;
+    for(int i = 1; i <= x; i++) {
+        for(int j = 0; j < n; j++) {
+            if(i - a[j] >= 0) {
+                dp[i] += dp[i - a[j]];
+                dp[i] %= MOD; 
+            }
+        }
+    }
+
+    cout << dp[x] << endl;
 }

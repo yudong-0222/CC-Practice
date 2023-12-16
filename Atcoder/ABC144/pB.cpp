@@ -1,3 +1,8 @@
+// Problem: B - 81
+// Contest: AtCoder - AtCoder Beginner Contest 144
+// URL: https://atcoder.jp/contests/abc144/tasks/abc144_b
+// Time Limit: 2000 ms
+
 #include <bits/stdc++.h>
 #define read(type) readInt<type>() // Fast read
 #define int long long
@@ -19,21 +24,25 @@
 #define sz(x) (int((x).size()))
 using namespace std;
 
-int cl[45];
 signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
+ 
+ 	int n; cin >> n;
+ 	bool yes = false;
+ 	
+ 	for(int i = 1; i <= 9; i++) {
+ 		if(yes) break;
+ 		for(int j = 1; j <= 9; j++) {
+ 			if(i*j == n) {
+ 				// cout << "i: " << i << " j: " << j << endl;
+	 			yes = true; 
+	 			break;
+ 			}
+ 		}
+ 	}
+ 	
+ 	if(yes) cout << "Yes\n"; 
+ 	else cout << "No\n";
     
-    int m,n,s; cin >> m >> n >> s;
-
-    for(int i = 1; i <= n; ++i) cin >> cl[i];
-
-    // 應該不用排序
-    
-    for(int i = 1; i <= m; ++i) {
-        if(i == cl[i]) continue;
-        else cout << cl[i] << " ";
-    }
-
-    cout << endl;
 }

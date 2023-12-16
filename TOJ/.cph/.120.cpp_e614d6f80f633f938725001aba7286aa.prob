@@ -1,0 +1,1 @@
+{"name":"Local: 120","url":"e:\\!C++\\TOJ\\120.cpp","tests":[{"id":1698813257817,"input":"5\n5 3 8 6 15\n3\n2 3\n1 5\n2 5","output":"11\n37\n32"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\TOJ\\120.cpp","group":"local","local":true}

@@ -19,21 +19,27 @@
 #define sz(x) (int((x).size()))
 using namespace std;
 
-int cl[45];
 signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    
-    int m,n,s; cin >> m >> n >> s;
 
-    for(int i = 1; i <= n; ++i) cin >> cl[i];
+    int t,sta; cin >> t;
+    vector<int> v(t);
 
-    // 應該不用排序
-    
-    for(int i = 1; i <= m; ++i) {
-        if(i == cl[i]) continue;
-        else cout << cl[i] << " ";
+    for(int i = 0; i < t; i++) cin >> v[i];
+
+    sta = v[0];
+    bool reset = false;
+    for(int i = 1; i < t; i++) {
+        if(reset) { // 判斷數字需要是否變成stdrand
+    	 	sta = v[i];
+    	 	reset = false;
+        	continue;
+		}
+		
+        if(v[i] % sta == 0) {
+        	cout << v[i] << endl;
+        	reset =true; // 表示下一位數字需要變成stdrand
+        }
     }
-
-    cout << endl;
 }

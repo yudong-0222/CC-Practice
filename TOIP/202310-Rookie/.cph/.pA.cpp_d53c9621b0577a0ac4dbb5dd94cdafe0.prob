@@ -1,0 +1,1 @@
+{"name":"Local: pA","url":"e:\\!C++\\TOIP\\202310-Rookie\\pA.cpp","tests":[{"id":1698399693897,"input":"90 5 20 30 5","output":"60"},{"id":1698399702597,"input":"60 15 30 10 15","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\!C++\\TOIP\\202310-Rookie\\pA.cpp","group":"local","local":true}

@@ -1,3 +1,8 @@
+// Problem: Creating Strings
+// Contest: CSES - CSES Problem Set
+// URL: https://cses.fi/problemset/task/1622
+// Time Limit: 1000 ms
+
 #include <bits/stdc++.h>
 #define read(type) readInt<type>() // Fast read
 #define int long long
@@ -19,21 +24,22 @@
 #define sz(x) (int((x).size()))
 using namespace std;
 
-int cl[45];
 signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    
-    int m,n,s; cin >> m >> n >> s;
-
-    for(int i = 1; i <= n; ++i) cin >> cl[i];
-
-    // 應該不用排序
-    
-    for(int i = 1; i <= m; ++i) {
-        if(i == cl[i]) continue;
-        else cout << cl[i] << " ";
-    }
-
-    cout << endl;
+ 	
+ 	string s; cin >> s;
+ 	sort(s.begin(), s.end());
+ 	vector<string> v;
+ 	v.pb(s);
+ 	
+ 	while(next_permutation(s.begin(), s.end())) {
+ 		v.pb(s);
+ 	}
+ 	
+ 	cout << v.size() << endl;
+ 	
+ 	for(int i = 0; i < v.size(); i++) {
+ 		cout << v[i] << endl; 
+ 	}  
 }

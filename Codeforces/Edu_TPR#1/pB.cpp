@@ -19,21 +19,24 @@
 #define sz(x) (int((x).size()))
 using namespace std;
 
-int cl[45];
+int tube[200005];
+
 signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    
-    int m,n,s; cin >> m >> n >> s;
 
-    for(int i = 1; i <= n; ++i) cin >> cl[i];
-
-    // 應該不用排序
-    
-    for(int i = 1; i <= m; ++i) {
-        if(i == cl[i]) continue;
-        else cout << cl[i] << " ";
+    int n,m,use,end,ans = 0;
+    cin >> n >> m;
+    for(int i = 0; i < m; i++) {
+        cin >> use >>end;
+        tube[use] --;
+        tube[end+5] ++;
+    }
+    int total = m;
+    for(int i = 1; i <= n; i++) {
+        total += tube[i];
+        ans = max(ans, m - total);
     }
 
-    cout << endl;
+    cout << ans << endl;
 }

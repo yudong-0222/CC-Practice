@@ -19,21 +19,26 @@
 #define sz(x) (int((x).size()))
 using namespace std;
 
-int cl[45];
 signed main(void) {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    
-    int m,n,s; cin >> m >> n >> s;
 
-    for(int i = 1; i <= n; ++i) cin >> cl[i];
+    int n,k; cin >> n >> k;
 
-    // 應該不用排序
-    
-    for(int i = 1; i <= m; ++i) {
-        if(i == cl[i]) continue;
-        else cout << cl[i] << " ";
-    }
-
-    cout << endl;
+    for(int i = 1; i <= n; i++) { //地板塊行數
+        for(int j = 1; j <= k; j++) { //每塊地板的高度
+        	for(int l = 1; l <= n; l++) { //每行有幾塊地板
+        		for(int p = 1; p <= k; p++) { //每塊地板的寬度
+        			if(i % 2 == 1) {
+        				if(l % 2 != 0) cout << "*";
+        				else cout << " ";
+        			} else if(i % 2 == 0){
+        				if(l % 2 != 0) cout << " ";
+        				else cout << "*";
+        			}
+        		}
+        	}
+        	cout << endl;
+        }
+    }   
 }
